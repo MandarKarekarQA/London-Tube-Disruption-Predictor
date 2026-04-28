@@ -1,19 +1,52 @@
+# ==============================
 # Python
+# ==============================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environment
+# ==============================
+# Virtual Environment
+# ==============================
 venv/
 .env
 
-# Data files (optional later)
-*.csv
-
-# Models
-*.pkl
-
+# ==============================
 # IDE
+# ==============================
 .idea/
 .vscode/
+
+# ==============================
+# Data Handling
+# ==============================
+
+# Ignore raw data (large / unnecessary)
+data/raw/
+
+# Allow processed dataset (needed for app)
+!data/processed/
+!data/processed/*.csv
+
+# ==============================
+# Models
+# ==============================
+
+# Ignore all models by default
+*.pkl
+
+# BUT allow the main trained model (required for app)
+!models/
+!models/tube_disruption_model.pkl
+
+# ==============================
+# Logs (optional)
+# ==============================
+*.log
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
