@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Data files (optional later)
+*.csv
+
+# Models
+*.pkl
+
+# IDE
+.idea/
+.vscode/
