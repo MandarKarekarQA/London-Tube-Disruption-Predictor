@@ -1,8 +1,6 @@
-pandas
-numpy
-requests
-scikit-learn
-streamlit
-joblib
-python-dotenv
-matplotlib
+streamlit==1.56.0
+pandas==3.0.2
+scikit-learn==1.8.0
+joblib==1.5.3
+numpy==2.4.0
+scipy==1.17.1
